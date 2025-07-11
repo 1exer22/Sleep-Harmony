@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  CheckCircle,
-  Mail,
-  Heart,
-  Clock,
-  Star,
-  ArrowRight,
-} from "lucide-react";
+import { CheckCircle, Mail, Heart, Clock, Star } from "lucide-react";
 
 interface ThankYouScreenProps {
   email: string;
@@ -17,7 +10,6 @@ interface ThankYouScreenProps {
 const ThankYouScreen: React.FC<ThankYouScreenProps> = ({
   email,
   firstName,
-  onContinue,
 }) => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50 flex items-center justify-center p-4">
